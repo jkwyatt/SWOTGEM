@@ -6,5 +6,5 @@ There are example notebooks under the 'how_to_SWOTGEM.ipynb' which show how some
 \
 \
 Get in touch with any questions or if you notice any issues! Either james.wyatt@utas.edu.au or jamesw@hav.fo or jimbokwyatt@gmail.com. \
-Have a 10/10 day, \
+Have a great day, \
 James
