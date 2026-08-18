@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swotgem-toolbox"
+version = "0.1.0"
+description = "Reusable tools for mapping SWOT SSH through a SatGEM lookup field"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "gsw>=3.6",
+    "numpy>=1.24",
+    "pyproj>=3.6",
+    "requests>=2.31",
+    "xarray>=2023.1",
+]
+
+[project.optional-dependencies]
+plot = [
+    "cartopy>=0.22",
+    "cmocean>=3.0",
+    "matplotlib>=3.7",
+]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
