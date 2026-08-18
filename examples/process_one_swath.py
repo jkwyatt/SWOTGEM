@@ -1,5 +1,3 @@
-"""Minimal replacement for the single-swath cells in SWOTGEM.ipynb."""
-
 from pathlib import Path
 
 import matplotlib.pyplot as plt
